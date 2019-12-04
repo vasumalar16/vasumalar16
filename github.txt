@@ -1,0 +1,13 @@
+Githubs- https://github.com/vasumalar16/vasumalar16.git
+
+
+echo "# vasumalar16" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/vasumalar16/vasumalar16.git
+git push -u origin master
+
+
+git remote add origin https://github.com/vasumalar16/vasumalar16.git
+git push -u origin master
