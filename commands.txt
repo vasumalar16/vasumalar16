@@ -1,0 +1,13 @@
+ssh -i "vvaws.pem" ec2-user@ec2-15-206-168-61.ap-south-1.compute.amazonaws.com
+ssh -i "vvaws.pem" ec2-user@ec2-13-234-119-93.ap-south-1.compute.amazonaws.com
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py --user
+
+
+hosts
+172.31.34.49
+172.31.32.124
+
+wget “https://raw.githubusercontent.com/ansible/ansible/devel/examples/ansible.cfg”
+
